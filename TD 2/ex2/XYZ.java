@@ -1,0 +1,24 @@
+public class XYZ {
+    private int x; 
+    private static int y ;
+    private int z; 
+    XYZ ( )
+    {
+        x = 0 ; 
+        y++ ;
+        z = y ;
+    }
+
+    XYZ ( int x )
+    {
+        this.x = x ; 
+        y++ ;
+        z = y ;
+    }
+
+    void affiche ( )
+    {
+        System.out.println ( "x = " + x + ", y = " + y + ", z = " + z) ;
+    }
+}
+
